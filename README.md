@@ -5,7 +5,7 @@ A FiveM Cache Cleaner + PC Optimization!
 
 - The Best FiveM Cache Cleaner Tool
 
-- FiveM-Cache-Cleaner clears your FiveM Cache and Optimizes your PC performance by removing folders in %temp% folder and kills uneccessary processes running in the background!
+- FiveM-Cache-Cleaner clears your FiveM Cache and Optimizes your PC performance by removing folders in %temp% folder and kills unnecessary processes running in the background!
 
 ***Made by qPro#0001***
 - https://github.com/qPro420/FiveM-Cache-Cleaner/
@@ -15,7 +15,7 @@ A FiveM Cache Cleaner + PC Optimization!
 
 
 # Video Showcase
- - https://www.youtube.com/watch?v
+ - https://youtu.be/nlZ12_va_xE
 
 
  # Notice
