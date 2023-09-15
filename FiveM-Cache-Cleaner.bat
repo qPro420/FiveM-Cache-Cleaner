@@ -13,7 +13,7 @@ echo.
 echo  You need Discord Bot/Software Development Services? Contact Me via Discord: qPro#0001
 echo.
 echo.
-echo - Press Any Key to optimize FiveM and Clear the cache
+echo  - Press Any Key to optimize FiveM and Clear the cache
 pause >nul
 cls
 
@@ -21,8 +21,10 @@ start "" https://feds.lol/qPro
 
 color c
 
-echo Clearing FiveM Cache...
-TIMEOUT /T 2
+echo.
+echo.
+echo  - Clearing FiveM Cache...
+timeout /t 2
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\cache"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\game-storage"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\nui-storage"
@@ -31,27 +33,27 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache-priv"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
-
-
 echo.
 echo.
-echo  Optimizing Your Computer for FiveM...
-TIMEOUT /T 2
+echo.
+echo  - Cache Cleared Sucesfully!
+timeout /t 1
+cls
+echo.
+echo  - Optimizing Your Computer for FiveM...
+timeout /t 2
+cls
 powercfg -s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
 taskkill /f /im GTAVLauncher.exe
 wmic process where name="FiveM.exe" CALL setpriority 128
+wmic process where name="FiveM_b2612_GTAProcess.exe" CALL setpriority 128
 wmic process where name="FiveM_b2372_GTAProcess.exe" CALL setpriority 128
-rmdir /s /q "%LocalAppData%\FiveM\Temp"
-taskkill /f /im wmpnetwk.exe.exe
-taskkill /f /im OneDrive.exe
-taskkill /f /im speedfan.exe
+rmdir /s /q "%Temp%"
 taskkill /f /im TeamViewer_Service.exe
-taskkill /f /im opera.exe
 taskkill /f /im Cortana.exe
 taskkill /f /im AnyDesk.exe
-taskkill /f /im java.exed
+cls
 
-TIMEOUT /T 1
 color a
 cls
 echo       ______           __         ________                         
@@ -63,7 +65,7 @@ echo                        Developer: qPro#0001
 echo.
 echo.
 echo.
-echo  - Cleared Cache and Optimized PC, this tool was created by qPro#0001
+echo  - Cleared Cache and PC Optimized!
 echo.
 echo.
-timeout /t 10 /nobreak
+timeout /t 5 /nobreak
