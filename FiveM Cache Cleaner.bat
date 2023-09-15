@@ -31,7 +31,6 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache-priv"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\adhesive.dll"
 
 
 echo.
