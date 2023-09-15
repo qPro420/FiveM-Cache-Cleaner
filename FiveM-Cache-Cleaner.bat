@@ -30,7 +30,6 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\game-storage"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\nui-storage"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache-priv"
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\plugins"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
 echo.
